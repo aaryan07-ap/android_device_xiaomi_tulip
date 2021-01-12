@@ -441,9 +441,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
     $(DEVICE_PATH)/overlay-lineage
 
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
-    
 # RRO configuration
 TARGET_USES_RRO := true
 PRODUCT_ENFORCE_RRO_TARGETS := *
